@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A simple html5 farming game",
   "scripts": {
-    "build": "NODE_OPTIONS='--openssl-legacy-provider' && webpack --config webpack/production.js",
+    "build": "export NODE_OPTIONS='--openssl-legacy-provider' && webpack --config webpack/production.js",
     "start": "webpack-dev-server --config webpack/base.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
